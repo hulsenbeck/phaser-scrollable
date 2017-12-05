@@ -12,7 +12,7 @@ var ScrollableArea = function(x, y, w, h, params) {
 	this.maskGraphics.beginFill(0x000000);
 	this.maskGraphics.drawRect(0, 0, w, h);
 	this.maskGraphics.alpha = 0.2;
-	this.maskGraphics.inputEnabled = true;
+	this.maskGraphics.inputEnabled = false;
 	this.mask = this.maskGraphics;
 	
 	this.dragging = false;
